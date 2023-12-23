@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import MedicineRow from "./MedicineRow";
-import { FaTrash } from "react-icons/fa";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
 

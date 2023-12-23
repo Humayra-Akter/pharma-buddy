@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import PharmacyMedicineDetails from "./PharmacyMedicineDetails";
 
 const PharmacyCard = ({ product }) => {
   const { img, name, email } = product;
